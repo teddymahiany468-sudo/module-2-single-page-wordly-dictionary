@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f3f9;
+    color: #252744;
+    padding: 25px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    color: #4145a8;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    background: #4145a8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#results {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.meaning {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #4145a8;
+}
+
+.example {
+    color: #666;
+    font-style: italic;
+}
+
+.synonym {
+    display: inline-block;
+    background: #ededff;
+    padding: 5px 8px;
+    margin: 4px;
+    border-radius: 12px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 450px) {
+    form {
+        flex-direction: column;
+    }
+}
